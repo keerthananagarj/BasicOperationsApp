@@ -1,6 +1,7 @@
 package com.cap.basicoperationsapp;
 
 import android.os.Bundle;
+import android.util.Log;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
@@ -69,6 +70,7 @@ public class MainActivity extends AppCompatActivity {
             int a = Integer.parseInt(String.valueOf(number1.getText()));
             int b = Integer.parseInt(String.valueOf(number2.getText()));
             int divide = basicOperations.divideNumbers(a,b);
+            Log.d("result:", String.valueOf(divide));
             result.setText(String.format(
                     getResources().getString(R.string.reesult_is_d),divide));
         });
