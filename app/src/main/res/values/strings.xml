@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">BasicOperationsApp</string>
+    <string name="reesult_is_d">Result is : %d</string>
+</resources>
